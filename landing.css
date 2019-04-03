@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One");
+
+body {
+  background-image: url("images/back.png");
+  background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+#page-wrapper {
+  position: fixed;
+  width: 120%;
+}
+
+#title {
+padding: none;
+font-family: 'Julius Sans One', sans-serif;
+font-size: 30px;
+color: rgb(105, 3, 3);
+margin-left: 5px;
+position: fixed;
+font-weight: bold;
+margin-top: -159px;
+}
+
+#header_panel {
+  width: 100%;
+  height: 73px;
+  z-index: 1;
+  position: fixed;
+  margin-top: -180px;
+}
+
+#header-img {
+  height:20px;
+  width:20;
+  margin-left: 300px;
+  margin-top: 28px;
+  position: relative;
+}
+
+#nav-panel {
+  position: fixed;
+  top: 35px;
+  right: 10px;
+  width: 100%;
+}
+
+#header::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: -0px;
+  padding: 0;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px; 
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+li {
+  display: inline;
+  color: rgb(15, 230, 230);
+  padding: 3.5px;
+}
+
+#video {
+  width: 760px;
+  height: 515px;
+  margin-left: 255px;
+  border: 10px outset rgb(7, 119, 145);
+  position: relative;
+  overflow: hidden;
+  margin-top: 180px;
+}
+
+
+footer {
+  margin-top: 30px;
+  background-color: rgb(3, 0, 5);
+  padding: 25px;
+  font-family: 'Julius Sans One', sans-serif;
+  opacity: 0.7;
+  height: 30px;
+}
+
+
+li {
+    padding: 0 px;
+    font-size: 0.65em;
+    position: relative;
+    margin-top: -15px;
+  } 
+
+#footer_text {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  font-size: 20px;
+}
+
+span {
+    margin-top: 3px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    color: rgb(15, 230, 230);
+  }
+
+#form {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 13px;
+  padding: 15px;
+  font-weight: bolder;
+  color: white;
+}
+
+#About, #Theeth, #Eyes {
+  font-family: 'Julius Sans One', sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 13px;
+  margin: 5px;
+  font-weight: bolder;
+}
+
+h6 {
+  font-size: 26px;
+}
+
+@media screen and (min-width: 800px) {
+  flex-direction: column;
+  #nav_panel {width: 200px; float: left;}
+  #body {margin-left: 216px;}
+}
+
